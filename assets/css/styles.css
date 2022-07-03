@@ -875,6 +875,9 @@ img {
 .contact__container {
   row-gap: 1rem;
 }
+.register__container {
+  row-gap: 1rem;
+}
 
 .contact__information {
   display: flex;
@@ -1533,4 +1536,14 @@ Avoid undesirable overlapping shadows by creating a faux shadow on the ::after p
 
 .qualification {
   margin-top: 0;
+}
+
+.img-responsive  {
+  height: 400px;
+  width: auto;
+  display: inline-block;
+}
+.d-flex {
+  justify-content: space-around;
+  display: flex;
 }

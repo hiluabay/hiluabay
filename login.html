@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link href="assets/css/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.jpg" />
+
+    <title>Hilina</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__log">Hilina</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link"
+                ><i class="uil uil-estate nav__icon"></i> Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="uil uil-user nav__icon"></i> About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#school" class="nav__link"
+                ><i class="uil uil-file-alt nav__icon"></i> School</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#books" class="nav__link"
+                ><i class="uil uil-file-alt nav__icon"></i> Books</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link"
+                ><i class="uil uil-briefcase-alt nav__icon"></i> Services</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="uil uil-message nav__icon"></i> Contact me</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="login.html" class="nav__link  active-link"
+                ><i class="uil uil-message nav__icon"></i> Login
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="register.html" class="nav__link "
+                ><i class="uil uil-message nav__icon"></i> Register
+              </a>
+            </li>
+          </ul>
+          <i class="uiluil-times nav__close" id="nav-close"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <section class="login section" id="login">
+        <h2 class="section__title">Login</h2>
+
+        <div class="container grid" style="margin: auto">
+          <form action="" class="contact__form grid" style="margin: auto">
+            <div class="contact__inputs grid">
+              <!-- name -->
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email</label>
+                <input type="mail" class="contact__input" />
+              </div>
+              <!-- email -->
+              <div class="contact__content">
+                <label for="password" class="contact__label">Password</label>
+                <input type="password" class="contact__input" />
+              </div>
+            </div>
+            <div>
+              <a href="#" class="button button--flex">
+                Login
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Hilina</h1>
+            <span class="footer__subtitle">10th grade student</span>
+          </div>
+
+          <div></div>
+
+          <div class="footer__socials">
+            <a href="instagram.com" target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="facebook.com" target="_blank" class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Hilina Abay. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+      var audio = new Audio("./assets/audio/song.mp3");
+      audio.play();
+    </script>
+  </body>
+</html>
